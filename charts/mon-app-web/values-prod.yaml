@@ -1,0 +1,5 @@
+# fichier de surcharge de config
+replicaCount: 3 # On veut de la haute disponibilité en prod
+
+image:
+  tag: "latest" # On force la dernière version en prod
